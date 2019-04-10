@@ -2,7 +2,13 @@
  * Created by Joshua Jones on 4/9/2019.
  * Copyright (c) 2019 
  * All rights reserved.
+ *
+ *      Uses bit manipulation and "magic" number to get an approximation of
+ *      the square root of the entered numbers. Performs more quickly than
+ *      built in square root function for numbers closer to 0 (was ahead
+ *      in first 500k whole numbers in initial test)
  ******************************************************************************/
+ 
 #include <iostream>
 
 using namespace std;
