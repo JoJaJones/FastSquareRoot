@@ -8,28 +8,7 @@
  *      built in square root function for numbers closer to 0 (was ahead
  *      in first 500k whole numbers in initial test)
  ******************************************************************************/
- 
 #include <iostream>
-
-using namespace std;
-
-float performBlackMagic(float x);
-
-double performBlackMagic(double x);
-
-int main(){
-    double num;
-    float numTwo;
-    cout << "Input a number: ";
-    cin >> num;
-    cout << "The square root of that number is: " << performBlackMagic(num) << endl;
-    
-    cout << "Input a number: ";
-    cin >> numTwo;
-    cout << "The square root of that number is: " << performBlackMagic(numTwo) << endl;
-
-    return 0;
-}
 
 float performBlackMagic(float x){
     float b = x;
